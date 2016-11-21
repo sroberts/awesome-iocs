@@ -1,6 +1,6 @@
 # Awesome IOCs
 
-A collection of indicators of compromise. 
+An [awesome](https://github.com/sindresorhus/awesome) collection of indicators of compromise (and a few IOC related tools). 
 
 ## IOCs
 
