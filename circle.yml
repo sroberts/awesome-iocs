@@ -1,0 +1,6 @@
+dependencies:
+  override:
+    - bundle install
+test:
+  override:
+    - ./script/cibuild

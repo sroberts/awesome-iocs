@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+title () {
+  echo ""
+  echo "-------------------------------"
+  echo $1
+  echo "-------------------------------"
+  echo ""
+}
+
+title "Validating Markdown"
+bundle exec mdl -c ./.mdlrc *.md
