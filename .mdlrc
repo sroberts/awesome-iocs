@@ -1,0 +1,22 @@
+rules "~MD001,~MD002,~MD003,~MD004,~MD007,~MD010,~MD011,~MD013,~MD025,~MD026,~MD029,~MD030,~MD032,~MD033,~MD036,~MD037,~MD039"
+
+# MD001 Header levels should only increment by one level at a time
+# MD002 First header should be a h1 header
+# MD003 Header style
+# MD004 Unordered list style
+# MD006 Consider starting bulleted lists at the beginning of the line
+# MD007 Unordered list indentation
+# MD011 Reversed link syntax
+# MD013 Line length
+# MD025 Multiple top level headers in the same document
+# MD026 Trailing punctuation in header
+# MD029 Ordered list item prefix
+# MD030 Spaces after list markers
+# MD032 Lists should be surrounded by blank lines
+# MD033 Inline HTML
+# MD036 Emphasis used instead of a header
+# MD037 Spaces inside emphasis markers
+# MD038 Spaces inside code span elements *
+# MD039 Spaces inside link text
+# MD040 Fenced code blocks should have a language specified *
+# * = only occurs for markdownlint and/or remark
