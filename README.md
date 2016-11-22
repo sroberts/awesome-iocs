@@ -1,5 +1,7 @@
 # Awesome IOCs
 
+[![CircleCI](https://circleci.com/gh/sroberts/awesome-iocs.svg?style=svg)](https://circleci.com/gh/sroberts/awesome-iocs)
+
 An [awesome](https://github.com/sindresorhus/awesome) collection of indicators of compromise (and a few IOC related tools).
 
 ## IOCs
