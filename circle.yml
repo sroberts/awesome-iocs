@@ -1,5 +1,6 @@
 machine:
-  ruby
+  ruby:
+    version: 2.2.4p230
 dependencies:
   override:
     - bundle install
