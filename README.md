@@ -6,6 +6,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 - [0x27/linux.mirai](https://github.com/0x27/linux.mirai)
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats)
+- [circl/osint-feed](https://www.circl.lu/doc/misp/feed-osint/)
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators)
 - [da667/667s_Shitlist](https://github.com/da667/667s_Shitlist)
 - [eset/malware-ioc](https://github.com/eset/malware-ioc)
@@ -33,6 +34,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 ## IOC Formats
 
 - [mandiant/OpenIOC_1.1](https://github.com/mandiant/OpenIOC_1.1)
+- [MISP Malware Information Sharing Platform & Threat Sharing format](https://github.com/MISP/misp-rfc)
 - [Mitre Cyber Observable eXpression (CybOX™)](https://cyboxproject.github.io/)
 - [Mitre Malware Attribute Enumeration and Characterization (MAEC™)](https://maecproject.github.io/)
 - [Mitre Structured Threat Information eXpression (STIX™)](https://stixproject.github.io/)
