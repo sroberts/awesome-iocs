@@ -6,6 +6,8 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 ## IOCs
 
+### Indicators
+
 - [0x27/linux.mirai](https://github.com/0x27/linux.mirai)
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats)
 - [circl/osint-feed](https://www.circl.lu/doc/misp/feed-osint/)
@@ -18,7 +20,12 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base)
 - [pan-unit42/iocs](https://github.com/pan-unit42/iocs)
 
-## Yara Signatures
+### Snort Signatures
+
+- [Snort Downloads](https://www.snort.org/downloads)
+- [kingtuna/Signatures](https://github.com/kingtuna/Signatures)
+
+### Yara Signatures
 
 - [0pc0deFR/YaraRules](https://github.com/0pc0deFR/YaraRules)
 - [citizenlab/malware-signatures](https://github.com/citizenlab/malware-signatures)
@@ -28,13 +35,15 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [x64dbg/yarasigs](https://github.com/x64dbg/yarasigs)
 - [Yara-Rules/rules](https://github.com/Yara-Rules/rules)
 
-## IOC Tools
+## Tools
+
+### IOC Tools
 
 - [yahoo/PyIOCe](https://github.com/yahoo/PyIOCe)
 - [mandiant/ioc_writer](https://github.com/mandiant/ioc_writer)
 - [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen)
 
-## IOC Formats
+### IOC Formats
 
 - [mandiant/OpenIOC_1.1](https://github.com/mandiant/OpenIOC_1.1)
 - [MISP Malware Information Sharing Platform & Threat Sharing format](https://github.com/MISP/misp-rfc)
