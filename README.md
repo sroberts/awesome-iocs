@@ -43,6 +43,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [yahoo/PyIOCe](https://github.com/yahoo/PyIOCe)
 - [mandiant/ioc_writer](https://github.com/mandiant/ioc_writer)
 - [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen)
+- [InQuest/iocextract](https://github.com/inquest/python-iocextract)
 
 ### IOC Formats
 
