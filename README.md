@@ -1,6 +1,7 @@
 # Awesome IOCs
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![https://licensebuttons.net/p/zero/1.0/80x15.png]](http://creativecommons.org/publicdomain/zero/1.0/)
 [![CircleCI](https://circleci.com/gh/sroberts/awesome-iocs.svg?style=svg)](https://circleci.com/gh/sroberts/awesome-iocs)
 
 An [awesome](https://github.com/sindresorhus/awesome) collection of indicators of compromise (and a few IOC related tools).
