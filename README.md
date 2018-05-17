@@ -5,6 +5,17 @@
 
 An [awesome](https://github.com/sindresorhus/awesome) collection of indicators of compromise (and a few IOC related tools).
 
+
+## Contents
+
+- [IOCs](https://github.com/sroberts/awesome-iocs#iocs)
+  - [Indicators](https://github.com/sroberts/awesome-iocs#indicators)
+  - [Snort Signatures](https://github.com/sroberts/awesome-iocs#snort-signatures)
+  - [Yara Signatures](https://github.com/sroberts/awesome-iocs#yara-signatures)
+- [Tools](https://github.com/sroberts/awesome-iocs#tools)
+  - [IOC Tools](https://github.com/sroberts/awesome-iocs#ioc-tools)
+  - [IOC Formats](https://github.com/sroberts/awesome-iocs#ioc-formats)
+
 ## IOCs
 
 ### Indicators
