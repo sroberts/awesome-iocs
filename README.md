@@ -1,7 +1,6 @@
 # Awesome IOCs
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 An [awesome](https://github.com/sindresorhus/awesome) collection of indicators of compromise (and a few IOC related tools).
 
@@ -62,3 +61,10 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [Mitre Malware Attribute Enumeration and Characterization (MAEC™)](https://maecproject.github.io/) - A schema for understanding malware.
 - [Mitre Structured Threat Information eXpression (STIX™)](https://stixproject.github.io/) - A structured language for cyber threat intelligence
 - [Yara](https://virustotal.github.io/yara/) - The pattern matching swiss knife for malware researchers (and everyone else)
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+This content uses the CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication license.
