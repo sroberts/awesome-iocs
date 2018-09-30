@@ -62,7 +62,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![CC](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 This content uses the CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication license.
