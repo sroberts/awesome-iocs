@@ -41,7 +41,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [OALabs/iocs](https://github.com/OALabs/iocs) - Machine-digestible malware indicators.
 - [x64dbg/yarasigs](https://github.com/x64dbg/yarasigs) - Various Yara signatures (possibly to be included in a release later).
 - [Yara-Rules/rules](https://github.com/Yara-Rules/rules) - Repository of yara rules.
-- [InQuest/yara-rules](https://github.com/InQuest/yara-rules) - A collection of Yara rules we wish to share with the world, most probably referenced from http://blog.inquest.net.
+- [InQuest/yara-rules](https://github.com/InQuest/yara-rules) - A collection of Yara rules we wish to share with the world, most probably referenced from [http://blog.inquest.net](http://blog.inquest.net).
 
 ## Tools
 
