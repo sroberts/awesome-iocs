@@ -17,6 +17,8 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 ### Indicators
 
 - [0x27/linux.mirai](https://github.com/0x27/linux.mirai) - Leaked Linux.Mirai Source Code for Research/IoC Development Purposes
+- [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - Signature base for my scanner tools
+- [aptnotes/data](https://github.com/aptnotes/data) - APTnotes data
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats) - Collection of IOCs related to targeting of civil society
 - [circl/osint-feed](https://www.circl.lu/doc/misp/feed-osint/) - Open Source Intelligence for MISP
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports
@@ -25,7 +27,6 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [fireeye/iocs](https://github.com/fireeye/iocs) - FireEye Publicly Shared Indicators of Compromise (IOCs)
 - [jasonmiacono/IOCs](https://github.com/jasonmiacono/IOCs) - Indicators of compromise for threat intelligence
 - [makflwana/IOCs-in-CSV-format](https://github.com/makflwana/IOCs-in-CSV-format) - The repository contains IOCs in CSV format for APT, Cyber Crimes, Malware and Trojan and whatever I found as part of hunting and research
-- [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - Signature base for my scanner tools
 - [pan-unit42/iocs](https://github.com/pan-unit42/iocs) - Indicators from Unit 42 Public Reports
 
 ### Snort Signatures
