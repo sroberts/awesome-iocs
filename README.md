@@ -52,6 +52,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [mandiant/ioc_writer](https://github.com/mandiant/ioc_writer) - Provide a python library that allows for basic creation and editing of OpenIOC objects.
 - [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen) - yarGen is a generator for YARA rules.
 - [InQuest/iocextract](https://github.com/inquest/python-iocextract) - Advanced Indicator of Compromise (IOC) extractor.
+- [InQuest/ThreatIngestor](https://github.com/InQuest/ThreatIngestor) - Flexible framework for consuming threat intelligence.
 
 ### IOC Formats
 
