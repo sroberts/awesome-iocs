@@ -54,6 +54,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen) - yarGen is a generator for YARA rules.
 - [mandiant/ioc_writer](https://github.com/mandiant/ioc_writer) - Provide a python library that allows for basic creation and editing of OpenIOC objects.
 - [yahoo/PyIOCe](https://github.com/yahoo/PyIOCe) - Python IOC Editor.
+- [ninoseki/mitaka](https://github.com/ninoseki/mitaka#downloads) - Browser extension to lookup IoCs/observables on many sources.
 
 ### IOC Formats
 
