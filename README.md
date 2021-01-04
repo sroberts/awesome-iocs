@@ -42,6 +42,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [OALabs/iocs](https://github.com/OALabs/iocs) - Machine-digestible malware indicators.
 - [Yara-Rules/rules](https://github.com/Yara-Rules/rules) - Repository of yara rules.
 - [citizenlab/malware-signatures](https://github.com/citizenlab/malware-signatures) - Yara rules for malware families seen as part of targeted threats project.
+- [intezer/yara-rules](https://github.com/intezer/yara-rules) - Yara rules from Intezer.
 - [kevthehermit/YaraRules](https://github.com/kevthehermit/YaraRules) - My Yara Rules Collection.
 - [x64dbg/yarasigs](https://github.com/x64dbg/yarasigs) - Various Yara signatures (possibly to be included in a release later).
 
