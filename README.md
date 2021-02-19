@@ -29,6 +29,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [makflwana/IOCs-in-CSV-format](https://github.com/makflwana/IOCs-in-CSV-format) - The repository contains IOCs in CSV format for APT, Cyber Crimes, Malware and Trojan and whatever I found as part of hunting and research.
 - [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - NSHC ThreatRecon IoC Repository
 - [pan-unit42/iocs](https://github.com/pan-unit42/iocs) - Indicators from Unit 42 Public Reports.
+- [swisscom/detections](https://github.com/swisscom/detections) - This repo contains threat intelligence information and threat detection indicators (IOC, IOA) shared by Swisscom CSIRT.
 
 ### Snort Signatures
 
