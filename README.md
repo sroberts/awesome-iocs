@@ -39,6 +39,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 ### Yara Signatures
 
 - [0pc0deFR/YaraRules](https://github.com/0pc0deFR/YaraRules) - Multiple rules for yara-project for detect compiler/packer/protector.
+- [advanced-threat-research/Yara-Rules](https://github.com/advanced-threat-research/Yara-Rules) - Repository of YARA rules made by McAfee ATR Team
 - [InQuest/yara-rules](https://github.com/InQuest/yara-rules) - A collection of Yara rules we wish to share with the world, most probably referenced from [http://blog.inquest.net](http://blog.inquest.net).
 - [OALabs/iocs](https://github.com/OALabs/iocs) - Machine-digestible malware indicators.
 - [Yara-Rules/rules](https://github.com/Yara-Rules/rules) - Repository of yara rules.
