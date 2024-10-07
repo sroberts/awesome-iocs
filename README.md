@@ -33,7 +33,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 ### Snort Signatures
 
-- [Snort Downloads](https://www.snort.org/downloads) - Signatures for the Snort (& Suircata) Intrusion Detection System.
+- [Snort Downloads](https://www.snort.org/downloads) - Signatures for the Snort (& Suricata) Intrusion Detection System.
 - [kingtuna/Signatures](https://github.com/kingtuna/Signatures) - A mixture of snort and suricata signatures.
 
 ### Yara Signatures
