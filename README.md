@@ -16,6 +16,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 ### Indicators
 
+- [CyberBriefing IOC API](https://cyberbriefing.info) - REST API with 63K+ active IOCs from 20+ feeds (AlienVault OTX, Abuse.ch URLhaus, ThreatFox C2/malware, CISA KEV, Tor exits, OpenPhish). Backed by 2.7M threat articles for context. Free tier: 100 calls/day.
 - [0x27/linux.mirai](https://github.com/0x27/linux.mirai) - Leaked Linux.Mirai Source Code for Research/IoC Development Purposes.
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - Signature base for my scanner tools.
 - [aptnotes/data](https://github.com/aptnotes/data) - APTnotes data.
