@@ -30,6 +30,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - NSHC ThreatRecon IoC Repository
 - [pan-unit42/iocs](https://github.com/pan-unit42/iocs) - Indicators from Unit 42 Public Reports.
 - [swisscom/detections](https://github.com/swisscom/detections) - This repo contains threat intelligence information and threat detection indicators (IOC, IOA) shared by Swisscom CSIRT.
+- [ThreatCluster Public IOC Feed](https://threatcluster.io/iocs) - Free feed of validated indicators from clustered reporting. txt, csv and json.
 
 ### Snort Signatures
 
