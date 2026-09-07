@@ -24,6 +24,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports.
 - [da667/667s_Shitlist](https://github.com/da667/667s_Shitlist) - Hi kids, do you like cyber violence? Wanna see me destroy evil in the blink of an eyelid?
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators of Compromises (IOC) of our various investigations.
+- [Extuno Malicious Package Database](https://extuno.com/malicious-db) - Malicious browser extensions and packages across 12 ecosystems (Chrome, Firefox, VS Code, npm, PyPI, WordPress and others), aggregated from OSV, OpenSSF and vendor feeds. Free web lookup, json over https://extuno.com/ext/v1/malicious-recent.
 - [fireeye/iocs](https://github.com/fireeye/iocs) - FireEye Publicly Shared Indicators of Compromise (IOCs).
 - [jasonmiacono/IOCs](https://github.com/jasonmiacono/IOCs) - Indicators of compromise for threat intelligence.
 - [makflwana/IOCs-in-CSV-format](https://github.com/makflwana/IOCs-in-CSV-format) - The repository contains IOCs in CSV format for APT, Cyber Crimes, Malware and Trojan and whatever I found as part of hunting and research.
