@@ -22,6 +22,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats) - Collection of IOCs related to targeting of civil society.
 - [circl/osint-feed](https://www.circl.lu/doc/misp/feed-osint/) - Open Source Intelligence for MISP.
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports.
+- [cystack/stealer-fingerprints](https://github.com/cystack/stealer-fingerprints) - Public catalog of infostealer log fingerprints (banner strings, field signatures, YARA rules) for 30+ families including RedLine, Vidar, Lumma and StealC.
 - [da667/667s_Shitlist](https://github.com/da667/667s_Shitlist) - Hi kids, do you like cyber violence? Wanna see me destroy evil in the blink of an eyelid?
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators of Compromises (IOC) of our various investigations.
 - [fireeye/iocs](https://github.com/fireeye/iocs) - FireEye Publicly Shared Indicators of Compromise (IOCs).
