@@ -30,7 +30,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - NSHC ThreatRecon IoC Repository
 - [pan-unit42/iocs](https://github.com/pan-unit42/iocs) - Indicators from Unit 42 Public Reports.
 - [swisscom/detections](https://github.com/swisscom/detections) - This repo contains threat intelligence information and threat detection indicators (IOC, IOA) shared by Swisscom CSIRT.
-- [trilwu/apttrail](https://github.com/trilwu/apttrail) - APT indicators that carry the actor they belong to, its MITRE ATT&CK group id, when they first appeared and the report that published them.
+- [trilwu/apttrail](https://github.com/trilwu/apttrail) - APT indicators that carry the actor they belong to, its MITRE ATT&CK group ID, when they first appeared and the report that published them.
 
 ### Snort Signatures
 
