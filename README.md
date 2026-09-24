@@ -18,19 +18,18 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 - [0x27/linux.mirai](https://github.com/0x27/linux.mirai) - Leaked Linux.Mirai Source Code for Research/IoC Development Purposes.
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - Signature base for my scanner tools.
+- [PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) - Indicators from Unit 42 Public Reports.
+- [ThreatCluster Public IOC Feed](https://threatcluster.io/feeds) - Vendor-operated feed of indicators extracted from clustered public reporting, available as TXT, CSV and JSON.
 - [aptnotes/data](https://github.com/aptnotes/data) - APTnotes data.
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats) - Collection of IOCs related to targeting of civil society.
 - [circl/osint-feed](https://www.circl.lu/doc/misp/feed-osint/) - Open Source Intelligence for MISP.
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports.
-- [da667/667s_Shitlist](https://github.com/da667/667s_Shitlist) - Hi kids, do you like cyber violence? Wanna see me destroy evil in the blink of an eyelid?
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators of Compromises (IOC) of our various investigations.
-- [fireeye/iocs](https://github.com/fireeye/iocs) - FireEye Publicly Shared Indicators of Compromise (IOCs).
 - [jasonmiacono/IOCs](https://github.com/jasonmiacono/IOCs) - Indicators of compromise for threat intelligence.
-- [makflwana/IOCs-in-CSV-format](https://github.com/makflwana/IOCs-in-CSV-format) - The repository contains IOCs in CSV format for APT, Cyber Crimes, Malware and Trojan and whatever I found as part of hunting and research.
-- [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - NSHC ThreatRecon IoC Repository
-- [pan-unit42/iocs](https://github.com/pan-unit42/iocs) - Indicators from Unit 42 Public Reports.
-- [swisscom/detections](https://github.com/swisscom/detections) - This repo contains threat intelligence information and threat detection indicators (IOC, IOA) shared by Swisscom CSIRT.
-- [ThreatCluster Public IOC Feed](https://threatcluster.io/iocs) - Free feed of validated indicators from clustered reporting. txt, csv and json.
+- [mandiant/iocs](https://github.com/mandiant/iocs) - FireEye Publicly Shared Indicators of Compromise (IOCs). Archived; last updated 2019.
+- [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - NSHC ThreatRecon IoC Repository.
+- [swisscom/detections](https://github.com/swisscom/detections) - Threat intelligence information and threat detection indicators (IOC, IOA) shared by Swisscom CSIRT. Archived; last updated 2020.
+- [thirdeyeintelligence/IOCs-in-CSV-format](https://github.com/thirdeyeintelligence/IOCs-in-CSV-format) - The repository contains IOCs in CSV format for APT, Cyber Crimes, Malware and Trojan and whatever I found as part of hunting and research.
 
 ### Snort Signatures
 
@@ -39,11 +38,10 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 ### Yara Signatures
 
-- [0pc0deFR/YaraRules](https://github.com/0pc0deFR/YaraRules) - Multiple rules for yara-project for detect compiler/packer/protector.
+- [0pc0deFR/YaraRules](https://github.com/0pc0deFR/YaraRules) - Multiple rules for yara-project for detect compiler/packer/protector. Archived.
 - [InQuest/yara-rules](https://github.com/InQuest/yara-rules) - A collection of Yara rules we wish to share with the world, most probably referenced from [http://blog.inquest.net](http://blog.inquest.net).
-- [OALabs/iocs](https://github.com/OALabs/iocs) - Machine-digestible malware indicators.
 - [Yara-Rules/rules](https://github.com/Yara-Rules/rules) - Repository of yara rules.
-- [advanced-threat-research/Yara-Rules](https://github.com/advanced-threat-research/Yara-Rules) - Repository of YARA rules made by McAfee ATR Team
+- [advanced-threat-research/Yara-Rules](https://github.com/advanced-threat-research/Yara-Rules) - Repository of YARA rules made by McAfee ATR Team.
 - [citizenlab/malware-signatures](https://github.com/citizenlab/malware-signatures) - Yara rules for malware families seen as part of targeted threats project.
 - [intezer/yara-rules](https://github.com/intezer/yara-rules) - Yara rules from Intezer.
 - [kevthehermit/YaraRules](https://github.com/kevthehermit/YaraRules) - My Yara Rules Collection.
@@ -54,12 +52,12 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 ### IOC Tools
 
-- [InQuest/ThreatIngestor](https://github.com/InQuest/ThreatIngestor) - Flexible framework for consuming threat intelligence.
-- [InQuest/iocextract](https://github.com/inquest/python-iocextract) - Advanced Indicator of Compromise (IOC) extractor.
 - [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen) - yarGen is a generator for YARA rules.
-- [mandiant/ioc_writer](https://github.com/mandiant/ioc_writer) - Provide a python library that allows for basic creation and editing of OpenIOC objects.
-- [yahoo/PyIOCe](https://github.com/yahoo/PyIOCe) - Python IOC Editor.
+- [YahooArchive/PyIOCe](https://github.com/YahooArchive/PyIOCe) - Python IOC Editor. Archived.
+- [mandiant/ioc_writer](https://github.com/mandiant/ioc_writer) - Provide a python library that allows for basic creation and editing of OpenIOC objects. Archived.
 - [ninoseki/mitaka](https://github.com/ninoseki/mitaka#downloads) - Browser extension to lookup IoCs/observables on many sources.
+- [pedramamini/ThreatIngestor](https://github.com/pedramamini/ThreatIngestor) - Flexible framework for consuming threat intelligence.
+- [pedramamini/iocextract](https://github.com/pedramamini/iocextract) - Advanced Indicator of Compromise (IOC) extractor.
 
 ### IOC Formats
 
@@ -68,7 +66,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [Mitre Malware Attribute Enumeration and Characterization (MAEC™)](https://maecproject.github.io/) - A schema for understanding malware.
 - [Mitre Structured Threat Information eXpression (STIX™)](https://stixproject.github.io/) - A structured language for cyber threat intelligence.
 - [Yara](https://virustotal.github.io/yara/) - The pattern matching swiss knife for malware researchers (and everyone else).
-- [mandiant/OpenIOC_1.1](https://github.com/mandiant/OpenIOC_1.1) - This repository contains a revised schema, iocterms file, and other supporting documents which are the basis for a draft of a revised version of OpenIOC that we are calling OpenIOC 1.1.
+- [fireeye/OpenIOC_1.1](https://github.com/fireeye/OpenIOC_1.1) - This repository contains a revised schema, iocterms file, and other supporting documents which are the basis for a draft of a revised version of OpenIOC that we are calling OpenIOC 1.1.
 
 ## License
 

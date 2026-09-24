@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Fail if list items under any heading are not in byte (case-sensitive) order.
+set -e
+
+status=0
+for f in "$@"; do
+  LC_ALL=C awk -v file="$f" '
+    /^#/ { prev = ""; next }
+    /^- \[/ {
+      label = $0
+      sub(/^- \[/, "", label)
+      sub(/\].*/, "", label)
+      if (prev != "" && label < prev) {
+        printf "%s:%d: \"%s\" should come before \"%s\"\n", file, NR, label, prev
+        bad = 1
+      }
+      prev = label
+    }
+    END { exit bad }
+  ' "$f" || status=1
+done
+exit $status
