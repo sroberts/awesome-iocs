@@ -18,6 +18,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 
 - [0x27/linux.mirai](https://github.com/0x27/linux.mirai) - Leaked Linux.Mirai Source Code for Research/IoC Development Purposes.
 - [CyberBriefing IOC API](https://cyberbriefing.info) - Vendor-operated REST API aggregating active IOCs from public feeds (AlienVault OTX, Abuse.ch URLhaus, ThreatFox, CISA KEV, Tor exit nodes, OpenPhish); free tier requires an API key.
+- [Extuno Malicious Package Database](https://extuno.com/malicious-db) - Vendor-operated database of malicious browser extensions and packages across 12 ecosystems (Chrome, Firefox, VS Code, npm, PyPI, WordPress and others), aggregated from OSV, OpenSSF and vendor feeds, with a free web lookup and JSON endpoint.
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - Signature base for my scanner tools.
 - [PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) - Indicators from Unit 42 Public Reports.
 - [ThreatCluster Public IOC Feed](https://threatcluster.io/feeds) - Vendor-operated feed of indicators extracted from clustered public reporting, available as TXT, CSV and JSON.
