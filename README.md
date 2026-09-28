@@ -28,12 +28,14 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports.
 - [cystack/stealer-fingerprints](https://github.com/cystack/stealer-fingerprints) - Catalog of infostealer log fingerprints (banner strings, field signatures, YARA rules) for 30+ families including RedLine, Vidar, Lumma and StealC.
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators of Compromises (IOC) of our various investigations.
+- [hvs-consulting/ioc_signatures](https://github.com/hvs-consulting/ioc_signatures) - HvS-Consulting incident response IOCs and YARA rules, organized by threat actor or campaign.
 - [jasonmiacono/IOCs](https://github.com/jasonmiacono/IOCs) - Indicators of compromise for threat intelligence.
 - [mandiant/iocs](https://github.com/mandiant/iocs) - FireEye Publicly Shared Indicators of Compromise (IOCs). Archived; last updated 2019.
 - [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - NSHC ThreatRecon IoC Repository.
 - [swisscom/detections](https://github.com/swisscom/detections) - Threat intelligence information and threat detection indicators (IOC, IOA) shared by Swisscom CSIRT. Archived; last updated 2020.
 - [thirdeyeintelligence/IOCs-in-CSV-format](https://github.com/thirdeyeintelligence/IOCs-in-CSV-format) - The repository contains IOCs in CSV format for APT, Cyber Crimes, Malware and Trojan and whatever I found as part of hunting and research.
 - [trilwu/apttrail](https://github.com/trilwu/apttrail) - APT indicators that carry the actor they belong to, its MITRE ATT&CK group ID, when they first appeared and the report that published them.
+- [volexity/threat-intel](https://github.com/volexity/threat-intel) - Indicators from Volexity public threat intelligence blog posts, organized by year and post.
 
 ### Snort Signatures
 
@@ -47,6 +49,7 @@ An [awesome](https://github.com/sindresorhus/awesome) collection of indicators o
 - [Yara-Rules/rules](https://github.com/Yara-Rules/rules) - Repository of yara rules.
 - [advanced-threat-research/Yara-Rules](https://github.com/advanced-threat-research/Yara-Rules) - Repository of YARA rules made by McAfee ATR Team.
 - [citizenlab/malware-signatures](https://github.com/citizenlab/malware-signatures) - Yara rules for malware families seen as part of targeted threats project.
+- [elastic/protections-artifacts](https://github.com/elastic/protections-artifacts) - YARA rules and EQL behavior rules used by Elastic Security for endpoint.
 - [intezer/yara-rules](https://github.com/intezer/yara-rules) - Yara rules from Intezer.
 - [kevthehermit/YaraRules](https://github.com/kevthehermit/YaraRules) - My Yara Rules Collection.
 - [reversinglabs/reversinglabs-yara-rules](https://github.com/reversinglabs/reversinglabs-yara-rules) - ReversingLabs YARA Rules.
