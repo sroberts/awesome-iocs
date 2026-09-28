@@ -13,4 +13,4 @@ title "Validating Markdown"
 bundle exec mdl -c ./.mdlrc *.md
 
 title "Checking list order"
-./script/check-sort README.md
+./script/check-sort README.md archived.md
