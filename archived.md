@@ -1,15 +1,24 @@
 # Archived Sources
 
-Sources that are archived, no longer maintained or superseded. They are kept here for historical reference and are not part of the main list.
+Sources that are archived, unmaintained (no updates in several years) or superseded. They are kept here for historical reference and are not part of the main list.
 
 ## Indicators
 
+- [0x27/linux.mirai](https://github.com/0x27/linux.mirai) - Leaked Linux.Mirai source code for research and IOC development. Last updated 2017.
+- [jasonmiacono/IOCs](https://github.com/jasonmiacono/IOCs) - Indicators of compromise in OpenIOC and STIX formats. Last updated 2016.
 - [mandiant/iocs](https://github.com/mandiant/iocs) - FireEye publicly shared indicators of compromise. Archived; last updated 2019.
 - [swisscom/detections](https://github.com/swisscom/detections) - Threat intelligence and detection indicators (IOC, IOA) shared by Swisscom CSIRT. Archived; last updated 2020.
+- [thirdeyeintelligence/IOCs-in-CSV-format](https://github.com/thirdeyeintelligence/IOCs-in-CSV-format) - IOCs in CSV format for APT, cybercrime and malware activity found during hunting and research. Last updated 2017.
+
+## Snort Signatures
+
+- [kingtuna/Signatures](https://github.com/kingtuna/Signatures) - Snort and Suricata signatures for detecting denial-of-service attacks. Last updated 2015.
 
 ## YARA Signatures
 
 - [0pc0deFR/YaraRules](https://github.com/0pc0deFR/YaraRules) - YARA rules for detecting compilers, packers and protectors. Archived.
+- [citizenlab/malware-signatures](https://github.com/citizenlab/malware-signatures) - YARA rules from Citizen Lab research on targeted attacks against civil society. Last updated 2016.
+- [kevthehermit/YaraRules](https://github.com/kevthehermit/YaraRules) - Personal YARA rule collection by kevthehermit. Last updated 2016.
 
 ## IOC Tools
 
