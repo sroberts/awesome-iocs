@@ -11,7 +11,7 @@ Sources that are archived, unmaintained (no updates in several years) or superse
 - [swisscom/detections](https://github.com/swisscom/detections) - Threat intelligence and detection indicators (IOC, IOA) shared by Swisscom CSIRT. Archived; last updated 2020.
 - [thirdeyeintelligence/IOCs-in-CSV-format](https://github.com/thirdeyeintelligence/IOCs-in-CSV-format) - IOCs in CSV format for APT, cybercrime and malware activity found during hunting and research. Last updated 2017.
 
-## Snort Signatures
+## Snort and Suricata Signatures
 
 - [kingtuna/Signatures](https://github.com/kingtuna/Signatures) - Snort and Suricata signatures for detecting denial-of-service attacks. Last updated 2015.
 

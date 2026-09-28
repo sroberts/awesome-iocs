@@ -8,7 +8,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 
 - [IOCs](#iocs)
   - [Indicators](#indicators)
-  - [Snort Signatures](#snort-signatures)
+  - [Snort and Suricata Signatures](#snort-and-suricata-signatures)
   - [YARA Signatures](#yara-signatures)
 - [Tools](#tools)
   - [IOC Tools](#ioc-tools)
@@ -18,6 +18,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 
 ### Indicators
 
+- [CIRCL OSINT Feed](https://www.circl.lu/doc/misp/feed-osint/) - CIRCL's public MISP feed of indicators from open-source reporting, ready to subscribe to from a MISP instance.
 - [CyberBriefing IOC API](https://cyberbriefing.info) - Vendor-operated REST API that puts active IOCs from public feeds (AlienVault OTX, Abuse.ch URLhaus, ThreatFox, CISA KEV, Tor exit nodes, OpenPhish) behind one query interface; free tier requires an API key.
 - [Extuno Malicious Package Database](https://extuno.com/malicious-db) - Vendor-operated database of malicious browser extensions and packages across 12 ecosystems (Chrome, Firefox, VS Code, npm, PyPI, WordPress and others), aggregated from OSV, OpenSSF and vendor feeds, for checking software supply-chain exposure; free web lookup and JSON endpoint.
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - YARA rules and IOCs behind the LOKI and THOR Lite scanners, curated for a low false-positive rate and updated frequently.
@@ -25,7 +26,6 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [ThreatCluster Public IOC Feed](https://threatcluster.io/feeds) - Vendor-operated feed of indicators extracted from clustered public reporting, available as TXT, CSV and JSON.
 - [aptnotes/data](https://github.com/aptnotes/data) - Index of public reports on APT campaigns sorted by year, useful for tracing indicators back to the original vendor reporting.
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats) - Network indicators from reports on the targeting of civil society, published as CSV, JSON and generated Snort rules.
-- [circl/osint-feed](https://www.circl.lu/doc/misp/feed-osint/) - CIRCL's public MISP feed of indicators from open-source reporting, ready to subscribe to from a MISP instance.
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Indicators from Citizen Lab investigations into targeted attacks on civil society, one directory per report.
 - [cystack/stealer-fingerprints](https://github.com/cystack/stealer-fingerprints) - Fingerprints of infostealer log formats (banner strings, field signatures, YARA rules) for 30+ families including RedLine, Vidar, Lumma and StealC, for identifying which stealer produced a leaked log.
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators from ESET research publications, one directory per report and actively updated.
@@ -33,7 +33,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [trilwu/apttrail](https://github.com/trilwu/apttrail) - APT indicators that carry the actor they belong to, its MITRE ATT&CK group ID, when they first appeared and the report that published them.
 - [volexity/threat-intel](https://github.com/volexity/threat-intel) - IOCs from Volexity public threat research blog posts, organized by year and post.
 
-### Snort Signatures
+### Snort and Suricata Signatures
 
 - [Emerging Threats Open](https://rules.emergingthreats.net/open/) - Free Proofpoint Emerging Threats ruleset for Snort and Suricata, a common baseline for network intrusion detection.
 - [Snort Downloads](https://www.snort.org/downloads) - Official Snort rule sets, many of which also work with Suricata.
