@@ -1,6 +1,6 @@
 # Awesome IOCs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://en.wikipedia.org/wiki/Indicator_of_compromise"><img src="media/logo.svg" align="right" width="128" alt="Magnifying glass over a fingerprint"></a>
+<a href="https://en.wikipedia.org/wiki/Indicator_of_compromise"><img src="media/header.svg" width="100%" alt="Network graph with one node flagged as an indicator of compromise"></a>
 
 Forensic artifacts, such as file hashes, domains, IP addresses and detection signatures, that identify malicious activity on a system or network.
 
