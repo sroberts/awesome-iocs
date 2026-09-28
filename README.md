@@ -30,12 +30,12 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [cystack/stealer-fingerprints](https://github.com/cystack/stealer-fingerprints) - Fingerprints of infostealer log formats (banner strings, field signatures, YARA rules) for 30+ families including RedLine, Vidar, Lumma and StealC, for identifying which stealer produced a leaked log.
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators from ESET research publications, one directory per report and actively updated.
 - [hvs-consulting/ioc_signatures](https://github.com/hvs-consulting/ioc_signatures) - IOCs, CSV context and YARA rules from HvS-Consulting incident response work, organized by threat actor or campaign for threat hunting.
-- [nshc-threatrecon/IoC-List](https://github.com/nshc-threatrecon/IoC-List) - IOCs from NSHC ThreatRecon reports on named threat actor groups.
 - [trilwu/apttrail](https://github.com/trilwu/apttrail) - APT indicators that carry the actor they belong to, its MITRE ATT&CK group ID, when they first appeared and the report that published them.
 - [volexity/threat-intel](https://github.com/volexity/threat-intel) - IOCs from Volexity public threat research blog posts, organized by year and post.
 
 ### Snort Signatures
 
+- [Emerging Threats Open](https://rules.emergingthreats.net/open/) - Free Proofpoint Emerging Threats ruleset for Snort and Suricata, a common baseline for network intrusion detection.
 - [Snort Downloads](https://www.snort.org/downloads) - Official Snort rule sets, many of which also work with Suricata.
 
 ### YARA Signatures
@@ -63,7 +63,6 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [MITRE Malware Attribute Enumeration and Characterization (MAEC™)](https://maecproject.github.io/) - Schema for encoding malware behaviors, capabilities and attributes.
 - [OASIS Structured Threat Information Expression (STIX™)](https://oasis-open.github.io/cti-documentation/) - A structured language and serialization format for exchanging cyber threat intelligence.
 - [YARA](https://virustotal.github.io/yara/) - Pattern-matching language and tool for identifying and classifying malware, used by most signature collections in this list.
-- [mandiant/OpenIOC_1.1](https://github.com/mandiant/OpenIOC_1.1) - Revised schema, iocterms file and supporting documents for the draft OpenIOC 1.1 format.
 
 ## Related Lists
 
