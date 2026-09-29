@@ -34,6 +34,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [cystack/stealer-fingerprints](https://github.com/cystack/stealer-fingerprints) - Fingerprints of infostealer log formats (banner strings, field signatures, YARA rules) for 30+ families including RedLine, Vidar, Lumma and StealC, for identifying which stealer produced a leaked log.
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators from ESET research publications, one directory per report and actively updated.
 - [hvs-consulting/ioc_signatures](https://github.com/hvs-consulting/ioc_signatures) - IOCs, CSV context and YARA rules from HvS-Consulting incident response work, organized by threat actor or campaign for threat hunting.
+- [isMalicious](https://ismalicious.com/) - Vendor-operated reputation lookups for IP addresses, domains, URLs and file hashes through a REST API, with downloadable IP and domain blocklists and, on paid plans, STIX/TAXII 2.1 feeds; the free tier requires an API key.
 - [trilwu/apttrail](https://github.com/trilwu/apttrail) - APT indicators that carry the actor they belong to, its MITRE ATT&CK group ID, when they first appeared and the report that published them.
 - [volexity/threat-intel](https://github.com/volexity/threat-intel) - IOCs from Volexity public threat research blog posts, organized by year and post.
 
