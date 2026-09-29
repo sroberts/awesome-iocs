@@ -74,7 +74,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response#readme) - Tools and resources for security incident response.
 - [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis#readme) - Tools and resources for analyzing malware.
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence#readme) - Threat intelligence sources, formats and platforms.
-- [Awesome YARA](https://github.com/InQuest/awesome-yara#readme) - YARA rules, tools and resources.
+- [Awesome YARA](https://github.com/pedramamini/awesome-yara#readme) - YARA rules, tools and resources.
 
 ## Contributing
 

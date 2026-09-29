@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+# Report GitHub sources that are archived, have moved, or have gone quiet.
+# Prints a Markdown report and exits 1 if anything needs a look.
+#
+# Usage: ./script/check-sources [months]   (default: 24)
+# Requires an authenticated gh CLI (GH_TOKEN in CI).
+set -e
+
+months=${1:-24}
+cutoff=$(date -u -d "-${months} months" +%Y-%m-%d 2>/dev/null || date -u -v-"${months}"m +%Y-%m-%d)
+found=0
+
+check () {
+  local file=$1 flag_stale=$2
+  grep -o '](https://github.com/[^/)#]*/[^/)#]*' "$file" | sed 's|^](https://github.com/||' | sort -u |
+  while read -r repo; do
+    if ! info=$(gh api "repos/$repo" --jq '[.full_name, .archived, .pushed_at[:10]] | @tsv' 2>/dev/null); then
+      echo "- \`$file\`: [$repo](https://github.com/$repo) could not be found"
+      continue
+    fi
+    IFS=$'\t' read -r name archived pushed <<< "$info"
+    if [ "$name" != "$repo" ]; then
+      echo "- \`$file\`: [$repo](https://github.com/$repo) has moved to [$name](https://github.com/$name)"
+    fi
+    if [ "$flag_stale" = yes ] && [ "$archived" = true ]; then
+      echo "- \`$file\`: [$repo](https://github.com/$repo) is archived"
+    elif [ "$flag_stale" = yes ] && [[ "$pushed" < "$cutoff" ]]; then
+      echo "- \`$file\`: [$repo](https://github.com/$repo) was last pushed $pushed"
+    fi
+  done
+}
+
+# Sources in archived.md are expected to be stale, so only check them for moves.
+report=$( { check README.md yes; check archived.md no; } )
+
+echo "## GitHub sources"
+echo ""
+if [ -n "$report" ]; then
+  echo "Flagged: archived, moved, missing, or no pushes since $cutoff."
+  echo ""
+  echo "$report"
+  found=1
+else
+  echo "No archived, moved, missing or stale (no pushes since $cutoff) repositories."
+fi
+
+exit $found

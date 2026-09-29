@@ -1,0 +1,64 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 3 --accept 200..=299,429 README.md archived.md
+          output: lychee.md
+          fail: false
+
+      - name: Check GitHub sources
+        id: sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          ./script/check-sources > sources.md
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the report issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LINKS_FAILED: ${{ steps.lychee.outputs.exit_code != '0' }}
+          SOURCES_FAILED: ${{ steps.sources.outputs.exit_code != '0' }}
+        run: |
+          title="Link and source check report"
+          existing=$(gh issue list --state open --label link-check --json number --jq '.[0].number')
+
+          if [ "$LINKS_FAILED" != true ] && [ "$SOURCES_FAILED" != true ]; then
+            if [ -n "$existing" ]; then
+              gh issue close "$existing" --comment "All links and sources passed on $(date -u +%Y-%m-%d)."
+            fi
+            exit 0
+          fi
+
+          {
+            echo "Weekly check from [this run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID). Fix what's broken, move unmaintained sources to \`archived.md\`, and update moved links."
+            echo ""
+            cat sources.md
+            echo ""
+            cat lychee.md
+          } > report.md
+
+          gh label create link-check --color d73a4a --description "Automated link and source check" --force
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file report.md
+          else
+            gh issue create --title "$title" --label link-check --body-file report.md
+          fi

@@ -30,4 +30,4 @@ Sources that are archived, unmaintained (no updates in several years) or superse
 
 - [MITRE Cyber Observable eXpression (CybOX™)](https://cyboxproject.github.io/) - Archived CybOX documentation. CybOX was merged into STIX 2.
 - [MITRE Structured Threat Information eXpression (STIX™) 1.x](https://stixproject.github.io/) - Documentation for STIX 1.x, superseded by STIX 2.
-- [mandiant/OpenIOC_1.1](https://github.com/mandiant/OpenIOC_1.1) - Revised schema, iocterms file and supporting documents for the draft OpenIOC 1.1 format. Last updated 2020.
+- [fireeye/OpenIOC_1.1](https://github.com/fireeye/OpenIOC_1.1) - Revised schema, iocterms file and supporting documents for the draft OpenIOC 1.1 format. Last updated 2020.
