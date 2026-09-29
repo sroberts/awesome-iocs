@@ -13,6 +13,22 @@ If you're interested in adding to the Awesome IOCs list, submit a pull request u
 - Describe the source neutrally. Don't use claims such as "validated", "high-confidence" or "best" unless the source documents how they are met.
 - If you work for or are affiliated with the source, say so in the pull request. Commercial or vendor-operated feeds are welcome, but the maintainer judges them on the quality of the data, and the description should make clear who operates them.
 
+## Checking your change locally
+
+CI lints the Markdown with [mdl](https://github.com/markdownlint/markdownlint) and checks that every section is sorted. To run the same checks locally, you need Ruby and Bundler:
+
+```sh
+bundle install
+./script/cibuild
+```
+
+To check only the sort order, run `./script/check-sort README.md archived.md`. It prints the line of any entry that's out of order.
+
+## Pull requests and commits
+
+- Fill in the checklist in the [pull request template](.github/pull_request_template.md).
+- Write commit messages as described in the [commit convention](.github/commit-convention.md), for example `Add ThreatView feeds to Indicators`.
+
 ## Archived sources
 
 - Sources that are archived, superseded, or no longer maintained go in [archived.md](archived.md), not the README. Note the reason in the description, for example `Archived.` or `Last updated 2017.`
