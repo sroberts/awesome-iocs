@@ -13,6 +13,7 @@ Awesome IOCs is a curated [Awesome list](https://awesome.re) of sources of indic
 - `CONTRIBUTING.md` - the rules for entries. Read it before editing either list.
 - `script/cibuild` - what CI runs: `mdl` over `*.md` using `.mdlrc`, then `script/check-sort`.
 - `script/check-sort` - fails if entries under any heading are out of byte order.
+- `script/check-sources` - flags archived, moved or stale GitHub sources; run weekly by `.github/workflows/link-check.yml` along with a lychee link check.
 - `media/` - the header banner.
 
 ## Conventions
