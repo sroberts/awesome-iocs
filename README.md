@@ -19,7 +19,10 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 ### Indicators
 
 - [CIRCL OSINT Feed](https://www.circl.lu/doc/misp/feed-osint/) - CIRCL's public MISP feed of indicators from open-source reporting, ready to subscribe to from a MISP instance.
+- [Cisco-Talos/IOCs](https://github.com/Cisco-Talos/IOCs) - IOCs from Cisco Talos.
 - [CyberBriefing IOC API](https://cyberbriefing.info) - Vendor-operated REST API that puts active IOCs from public feeds (AlienVault OTX, Abuse.ch URLhaus, ThreatFox, CISA KEV, Tor exit nodes, OpenPhish) behind one query interface; free tier requires an API key.
+- [DomainTools-Investigations/Malware-and-Scams](https://github.com/DomainTools-Investigations/Malware-and-Scams) - IOCs from DomainTools for malware and scams.
+- [DomainTools-Investigations/Nation-State-Threats](https://github.com/DomainTools-Investigations/Nation-State-Threats) - IOCs from DomainTools for nation-state threats.
 - [Extuno Malicious Package Database](https://extuno.com/malicious-db) - Vendor-operated database of malicious browser extensions and packages across 12 ecosystems (Chrome, Firefox, VS Code, npm, PyPI, WordPress and others), aggregated from OSV, OpenSSF and vendor feeds, for checking software supply-chain exposure; free web lookup and JSON endpoint.
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - YARA rules and IOCs behind the LOKI and THOR Lite scanners, curated for a low false-positive rate and updated frequently.
 - [PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) - IOCs and supporting data for Palo Alto Networks Unit 42 threat research articles, so indicators can be traced back to their write-up.
