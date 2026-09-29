@@ -27,6 +27,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [Neo23x0/signature-base](https://github.com/Neo23x0/signature-base) - YARA rules and IOCs behind the LOKI and THOR Lite scanners, curated for a low false-positive rate and updated frequently.
 - [PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) - IOCs and supporting data for Palo Alto Networks Unit 42 threat research articles, so indicators can be traced back to their write-up.
 - [ThreatCluster Public IOC Feed](https://threatcluster.io/feeds) - Vendor-operated feed of indicators extracted from clustered public reporting, available as TXT, CSV and JSON.
+- [ThreatView Feeds](https://threatview.io/) - Free daily blocklists of malicious IPs, domains, URLs and file hashes, plus a C2 hunt feed of command-and-control servers with beacon configs; included in MISP's default feed list.
 - [aptnotes/data](https://github.com/aptnotes/data) - Index of public reports on APT campaigns sorted by year, useful for tracing indicators back to the original vendor reporting.
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats) - Network indicators from reports on the targeting of civil society, published as CSV, JSON and generated Snort rules.
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Indicators from Citizen Lab investigations into targeted attacks on civil society, one directory per report.
