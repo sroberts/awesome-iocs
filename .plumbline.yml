@@ -1,0 +1,16 @@
+# Plumbline (ACMM) configuration. See `plumbline help config`.
+#
+# This repository is a curated Markdown list: there is no application code,
+# test suite or running service. These Level 3 signals have nothing to
+# measure here, so they are turned off rather than scored as missing.
+signals:
+  l3.coverage-gate:
+    enabled: false # no tests to cover
+  l3.coverage-suite:
+    enabled: false # no tests to cover
+  l3.flaky-analysis:
+    enabled: false # no tests to flake
+  l3.error-monitoring:
+    enabled: false # nothing runs in production
+  l3.acceptance-tracking:
+    enabled: false # PR volume is too low for acceptance rates to mean much yet
