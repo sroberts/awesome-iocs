@@ -1,0 +1,40 @@
+name: Report a problem with a source
+description: A listed source is broken, has moved, is no longer maintained, or is described inaccurately.
+title: "Source problem: "
+labels: [feedback]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: The entry's name as it appears in the list.
+      placeholder: eset/malware-ioc
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem
+      options:
+        - Link is broken
+        - Source has moved or been renamed
+        - Source is archived or no longer maintained
+        - Description is inaccurate or out of date
+        - Source shouldn't be on the list
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you saw, and the new URL or a better description if you have one.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Do you work for or are you affiliated with this source? Write "None" if not.
+    validations:
+      required: true
