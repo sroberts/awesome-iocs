@@ -28,6 +28,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 - [PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) - IOCs and supporting data for Palo Alto Networks Unit 42 threat research articles, so indicators can be traced back to their write-up.
 - [ThreatCluster Public IOC Feed](https://threatcluster.io/feeds) - Vendor-operated feed of indicators extracted from clustered public reporting, available as TXT, CSV and JSON.
 - [ThreatView Feeds](https://threatview.io/) - Free daily blocklists of malicious IPs, domains, URLs and file hashes, plus a C2 hunt feed of command-and-control servers with beacon configs; included in MISP's default feed list.
+- [Whatoblock](https://whatoblock.com/) - Vendor-operated IP feeds from a honeypot sensor network, classified as scanners, botnet C2, proxies, Tor exits and DDoS sources, available as TXT, CSV and JSON with a free account.
 - [aptnotes/data](https://github.com/aptnotes/data) - Index of public reports on APT campaigns sorted by year, useful for tracing indicators back to the original vendor reporting.
 - [botherder/targetedthreats](https://github.com/botherder/targetedthreats) - Network indicators from reports on the targeting of civil society, published as CSV, JSON and generated Snort rules.
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Indicators from Citizen Lab investigations into targeted attacks on civil society, one directory per report.
