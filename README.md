@@ -57,6 +57,7 @@ Forensic artifacts, such as file hashes, domains, IP addresses and detection sig
 ### IOC Tools
 
 - [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen) - Generates YARA rules from malware samples while filtering out strings common in goodware.
+- [debugactiveprocess/MaldocTrace](https://github.com/debugactiveprocess/MaldocTrace) - Extracts IOCs and the commands a malicious Office, RTF, OneNote or email attachment would run by emulating its macros and scripts, with JSON output.
 - [ninoseki/mitaka](https://github.com/ninoseki/mitaka#downloads) - Browser extension that looks up a selected IOC across many OSINT and scanning services from the context menu.
 - [pedramamini/ThreatIngestor](https://github.com/pedramamini/ThreatIngestor) - Extendable framework that extracts and aggregates IOCs from threat feeds and passes them to other tools.
 - [pedramamini/iocextract](https://github.com/pedramamini/iocextract) - Extracts IOCs from text, including defanged URLs, IP addresses and hashes.
